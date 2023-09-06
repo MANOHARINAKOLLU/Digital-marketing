@@ -1,0 +1,89 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #5ebec5;
+    color: rgb(19, 12, 12);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(15, 10, 10);
+    margin: 0 20px;
+}
+
+#header-content {
+    display: flex;
+    align-items: center;
+}
+
+#header-content i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+#header-content p {
+    font-weight: bold;
+}
+
+#a {
+    background-image: url('https://th.bing.com/th/id/OIP.gXUd4zO1PhS7wPYZzbQQxwHaFj?w=201&h=180&c=7&r=0&o=5&pid=1.7');  
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.cta-button {
+    background-color: #f39c12;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+button {
+    background-color: blue;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #f39c12;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
